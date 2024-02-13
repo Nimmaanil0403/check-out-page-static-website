@@ -1,0 +1,155 @@
+.check-out{
+    padding-left:10rem;
+
+}
+
+.user-input-data{
+    /* border: 2px red solid; */
+    height: 100vh;
+    width: 50%;
+    
+    margin-left: 10rem;
+}
+.images{
+    /* border: 2px blue solid; */
+    height: 65vh;
+    width: 30%;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 20px;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.last-two{
+    display: flex;
+    flex-direction: row;
+}
+.user-input-data h1{
+    font-size:18px ;
+    font-family: 
+    Montserrat;
+    color: 
+    #333333;
+}
+
+.user-input-data input{
+    border-radius: 12px ;
+    width: 450px;
+    height: 37px;
+    border-color: 
+    #828282;
+}
+.image-card{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+.image{
+    height: 130px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.price p{
+    margin-right: 9px;
+}
+
+.card-details h1{
+    color: #4E5150;
+    font-size: 16px;
+    font-family: Montserrat ;
+    margin-top: 20px;
+}
+.counter{
+    display: flex;
+    flex-direction: row;
+    border: 2px black solid;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+   
+}
+.counter p{
+    margin-right:20px ;
+}
+.new_price{
+    font-size:16px ;
+    font-family: Montserrat;
+    color:  #F2994A ;
+}
+.old_price{
+
+    font-family: Montserrat;
+    color: #4E5150 ;
+    text-decoration: line-through;
+
+} 
+
+.shipping{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.shipping h1{
+    font-size: 18px;
+    font-family:
+    Montserrat ;
+    color: 
+    #333333;
+}
+.shipping p{
+    font-size: 18px;
+ 
+    color: 
+    #333333;
+
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.total h1{
+    font-size: 18px;
+    font-family:
+    Montserrat ;
+    color: 
+    #333333;
+}
+
+.continue-button{
+    display: flex;
+    justify-content: end;
+    margin-right: 300px;
+    margin-top: 40px;  
+
+}
+.continue-button button{
+    background-color:
+    #F2994A;
+    border-radius: 5px;
+    color:white;
+    width: 80px;
+    border: none;
+    height: 28px;
+    margin-bottom: 20px;
+}
